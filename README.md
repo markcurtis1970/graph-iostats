@@ -51,7 +51,7 @@ In the above output it might be useful to grab all the devices. Here's a useful 
 sed -n "/sda/,/sdc/p" iostat-server1.out | cut -d\  -f3 | sort -u > disks
 ```
 
-Where "sda" and "sdc" are the first and last disks in your iostat output respectively. Change those for your own needs. You can also pipe the output to a file as shown.
+Where "sda" and "sdc" are the first and last disks in your iostat output respectively. Change those for your own needs. You can also redirect the output to a file as shown.
 
 ## Creating the graphs
 
