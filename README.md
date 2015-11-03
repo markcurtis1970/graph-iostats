@@ -63,7 +63,7 @@ This is the fun part, using the `disk-report.sh` script, you can then essentiall
 
 *Note you might see some warnings on fonts* but you shouldnt see any errors
 
-This will create a bunch of .png files which you can then view with your favourite image viewer and / or embed into presentations to woo your audiences :-)
+This will create a bunch of .png files which you can then view with your favourite image viewer and / or embed into presentations to impress your audiences :-)
 
 
 
