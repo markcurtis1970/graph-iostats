@@ -1,6 +1,6 @@
 # Graph iostats
 
-A simple how to for graphing iostats. The output of iostat is useful but its also nice if you can get it into a graph. This is the idea of this small repository to show how this is done.
+A simple how to for graphing iostats. The output of iostat is useful but its also nice if you can get it into a graph. The idea of this small repository is to show how this is done.
 
 Acknoledgements to the following links where I drew inspiration:
 
@@ -12,6 +12,8 @@ http://sysmagazine.com/posts/165855/
 ## Overview
 
 Theres nothing more special here than a bunch of shell scripts that run gnuplot and could probably be very easily improved. There's a few things that will need to be setup beforehand though and you'll also need to run a iostat command to collect data. Note this was all tested on Centos Linux, you may run into problems running these scripts on a Mac. It's definitely not going to work on MS Windows, sorry!
+
+Also a lot of the scripts are grouped by the type of measurement, i.e. queue length is in requests but queue size is in sectors. Otehr things like read/write requests are per second. I kept all the scripts seperate for now to keep things simpler to follow if for example you only wanted to graph one of two stats.
 
 ## Setup
 
