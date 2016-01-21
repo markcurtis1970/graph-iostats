@@ -22,6 +22,22 @@ You'll need to install the following:
 - gnuplot
 - iostat (usually installed on more common Linux distros)
 
+### MacOS users
+
+If you're running this on a MAC you'll need to install [homebrew](http://brew.sh/) first:
+
+**Install brew**
+
+```
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+**Install GNU Plot**
+
+```
+brew install gnuplot
+```
+
 ## Collecting data
 
 Run the following iostat command for a decent period of time to collect some data:
